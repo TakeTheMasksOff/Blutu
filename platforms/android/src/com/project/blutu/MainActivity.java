@@ -19,8 +19,11 @@
 
 package com.project.blutu;
 
+
 import android.os.Bundle;
+import com.estimote.coresdk.common.config.EstimoteSDK;
 import org.apache.cordova.*;
+
 
 public class MainActivity extends CordovaActivity
 {
@@ -34,6 +37,9 @@ public class MainActivity extends CordovaActivity
         if (extras != null && extras.getBoolean("cdvStartInBackground", false)) {
             moveTaskToBack(true);
         }
+
+        EstimoteSDK.initialize(applicationContext, appId, appToken);
+        EstimoteSDK.enableDebugLogging(true);
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
