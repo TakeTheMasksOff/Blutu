@@ -20,8 +20,11 @@
 package com.project.blutu;
 
 
+import android.content.Context;
 import android.os.Bundle;
 import com.estimote.coresdk.common.config.EstimoteSDK;
+import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
+
 import org.apache.cordova.*;
 
 
@@ -30,6 +33,11 @@ public class MainActivity extends CordovaActivity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
+        Context applicationContext = getApplicationContext();
+        // appId & appToken provided by Estimote
+        String appId;
+        String appToken;
+
         super.onCreate(savedInstanceState);
 
         // enable Cordova apps to be started in the background
@@ -38,10 +46,23 @@ public class MainActivity extends CordovaActivity
             moveTaskToBack(true);
         }
 
+        //Ahmad. Initializing estimoteSDK
         EstimoteSDK.initialize(applicationContext, appId, appToken);
         EstimoteSDK.enableDebugLogging(true);
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        //Ahmad. Check if it's working
+        SystemRequirementsChecker.checkWithDefaultDialogs(this);
+        SystemRequirementsChecker requirementsChecker = new SystemRequirementsChecker();
+        android.app.Activity activityForRequiremenst = new android.app.Activity();
+        requirementsChecker.checkWithDefaultDialogs(activityForRequiremenst);
     }
 }

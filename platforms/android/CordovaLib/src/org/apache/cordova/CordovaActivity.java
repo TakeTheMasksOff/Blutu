@@ -42,6 +42,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
+import com.estimote.coresdk.common.config.EstimoteSDK;
+import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
+
 
 /**
  * This class is the main Android activity that represents the Cordova
@@ -264,6 +267,7 @@ public class CordovaActivity extends Activity {
     protected void onResume() {
         super.onResume();
         LOG.d(TAG, "Resumed the activity.");
+
 
         if (this.appView == null) {
             return;
