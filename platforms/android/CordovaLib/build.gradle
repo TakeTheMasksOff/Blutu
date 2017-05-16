@@ -74,6 +74,10 @@ android {
     buildToolsVersion '25.0.0'
 }
 
+dependencies {
+    compile 'com.estimote:sdk:1.0.3:release@aar'
+}
+
 install {
     repositories.mavenInstaller {
         pom {
