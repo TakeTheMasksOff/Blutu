@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OX"
+        android:textSize="24sp"
+        android:layout_above="@+id/textMove"
+        android:layout_toEndOf="@+id/textY"
+        android:layout_marginStart="169dp" />
+
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OZ"
+        android:textSize="24sp"
+        android:layout_marginEnd="70dp"
+        android:layout_above="@+id/textMove"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OY"
+        android:textSize="24sp"
+        android:layout_marginStart="56dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="is move"
+        android:textSize="24sp"
+        android:layout_below="@+id/textY"
+        android:layout_toStartOf="@+id/textZ"
+        android:layout_marginEnd="39dp" />
+
+    <TextView
+        android:id="@+id/textT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textMove"
+        android:layout_alignStart="@+id/textY"
+        android:text="t="
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/lstNearebles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+</RelativeLayout>

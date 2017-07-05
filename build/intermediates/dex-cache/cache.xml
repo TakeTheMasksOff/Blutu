@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\.android\build-cache\4f50acb419d2b1642f2875a9728237450538c30d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\classes_ab2a23364dc89632357fa45684b14347de115424.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebc30331c9b58827398c992249bf0b96cb1ff61e">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_306a68b13b2223bc16f4bfb1e829150cafb8ad25\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\.android\build-cache\5d9a04ae5774ed7982cec63838f450fe96d877ea\output\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_9034de4ffeee98537fe0ee3fbbd2cc4f2989537b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\.android\build-cache\93ca42554943730084f887bbac07dbce5c24856b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\classes_de210da65875f86f5a8f7c71b816a6970648064e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_81831efc1847884f4c6d665f71af356d0d523c92\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_71347215b37e3703155fb8f2649f7c49488dc1f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\.android\build-cache\5d9a04ae5774ed7982cec63838f450fe96d877ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\classes_1f6b8bd98527f1c631851dca3807d0d04ebd94c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\khala\.android\build-cache\2c21f7ecb859fe2403123edaf9226cfa82d3371e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\khala\Downloads\New folder (2)\BlutuNdh\app\build\intermediates\pre-dexed\debug\classes_ce2a73024619c395db11cc108ffedfb86d4cabc1.jar" />
+    </item>
+
+</items>
