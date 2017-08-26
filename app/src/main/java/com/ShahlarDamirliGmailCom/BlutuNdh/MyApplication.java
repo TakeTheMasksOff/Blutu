@@ -15,6 +15,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.HashMap;
+import java.util.Map;
 
 //
 // Running into any issues? Drop us an email to: contact@estimote.com
@@ -40,4 +42,21 @@ public class MyApplication extends Application {
         // it's usually only a good idea when troubleshooting issues with the Estimote SDK
 //        EstimoteSDK.enableDebugLogging(true);
     }
+}
+
+class CloudData{
+    public int maxScreenSegmentation = 2;
+    public int maxCyclesWithoutMoving = 8;
+    public String[] allowedStickersId ={
+            "bd70cc00e406f373",
+            "ea9ca8190e8c85ec",
+            "ed45209145968657",
+            "28488659a4c07c2c",
+            "ed2115f75a95f728",
+            "881908feb12d0b14",
+            "6d55161cf8822f22",
+            "a5f1d8861005be27",
+            "9d2404d50ea7ee15",
+            "05b83fcfbc55fcf8"
+    };
 }
